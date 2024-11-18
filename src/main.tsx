@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import Home from './routes/Home.tsx'
 import Movies from './routes/Movies.tsx'
+import Serie from './routes/Serie.tsx'
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/movies",
         element: <Movies />
+      },
+      {
+        path: "/serie",
+        element: <Serie />
       }
     ]
   },
