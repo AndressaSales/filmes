@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import LiveTvOutlinedIcon from '@mui/icons-material/LiveTvOutlined';
 import MovieCreationOutlinedIcon from '@mui/icons-material/MovieCreationOutlined';
 export default function Navbar(){
 
@@ -11,7 +10,6 @@ export default function Navbar(){
                 </div>
                 <div className="text-[#fff] font-bold mr-9 text-[1.3rem]">
                     <Link className="mr-4 hover:text-purple-600 size-4" to={'/movies'} > <MovieCreationOutlinedIcon sx={{ fontSize: 34 }} /> </Link>
-                    <Link className="hover:text-purple-600" to={''}> <LiveTvOutlinedIcon sx={{ fontSize: 34 }} /> </Link>
                 </div>
             </div>
         </>

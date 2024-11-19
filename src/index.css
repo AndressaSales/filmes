@@ -9,17 +9,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: #3d3d3d;
 }
+
 .logo {
     font-family: "Vidaloka", serif;
     font-weight: 600;
     font-size: 50px;
 }
 
+.banner{
+    background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 1, 51, 0.3));
+    padding: 0 5%;
+}
 @media (max-width: 800px){
     .img{
         height: 500px;
+    }
+    .video{
+        width: auto;
+        height: 100%;
     }
 }
